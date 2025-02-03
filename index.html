@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>prize</title>
+</head>
+<body>
+    <img src="https://s3-alpha-sig.figma.com/img/bf90/05e4/ea371946d39627b79e08544906437e6f?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M5bSefixRcbL2or-EX3GQf2TNkjEB3cLysEK42kF8SVJtDxXtrQcdkTZIXaTFqYbqYOLDR72rwhSBFPHbfQPL0EQq5MIp1dE8t~bynzVH4xY6LEgvJGTX7I69EINPhDAFjyK~jSvR0IwwFPfbwf5kWx7uCRMGiyR4vLOrGtY2ftOtUqxg4xvKLjNaCEtuYMwSO7qvnawGkgHQzqF1BTtHhHqCLYdOvC4-WZ19KEvOJfLiIv2oA3eAODy5nEyAXeH0Z2acGUQLe-pD-KipMoW7qgb5pOIlNhHp5oOy-xbj0DrhCQb25~9IsS1qYIrkSF1i7DEudBT9aMXwXJGyaorgQ__" alt="">
+    
+    <h2>Sortear um Número</h2>
+
+    <div>
+        <input placeholder="entre" class="input-min"   type="number">
+        <input placeholder="e"     class="input-max"   type="number">
+    </div>
+
+    <button onclick="generateNumber()">Sortear</button>
+
+    <div class="show">
+        <h2>Seu Numero é</h2>
+        <p class="total"></p>
+    </div>
+
+    <div onclick="clickMask()" class="mascara"></div>
+</body>
+<script src="scripts.js"></script>
+</html>
